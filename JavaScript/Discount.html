@@ -1,0 +1,25 @@
+<html>
+<head><title>js1</title>
+<script language="javascript">
+	function calculate()
+	{
+		var x=parseInt(form1.a1.value)
+		var y=parseInt(form1.a2.value)
+		var z=x/100*y
+		form1.a3.value=z
+	}
+	</script>
+</head>
+<body bgcolor="cyan">
+	<form name="form1">
+		<p>Enter Amount:<input type="text"name="a1"/></p>
+		<p>Enter Discount(%):<input type="text"name="a2"/></p>
+		<p>Discount amount:<input type="text"name="a3"/></p>
+		<input type="button"value="calculate"onclick="calculate()"/>
+		<input type="button"value="button"onclick="clear()"/>
+	
+		</form>
+	</body>
+
+	</html>
+

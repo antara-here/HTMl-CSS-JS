@@ -1,0 +1,46 @@
+<html>
+<head><title>js1</title>
+<script language="javascript">
+	function add()
+	{
+		var x=parseInt(form1.a1.value)
+		var y=parseInt(form1.a2.value)
+		var z=x+y
+		form1.a3.value=z
+	}
+	function sub()
+	{
+		var x=parseInt(form1.a1.value)
+		var y=parseInt(form1.a2.value)
+		var z=x-y
+		form1.a3.value=z
+	}
+	function multi()
+	{
+		var x=parseInt(form1.a1.value)
+		var y=parseInt(form1.a2.value)
+		var z=x*y
+		form1.a3.value=z
+	}
+	function div()
+	{
+		var x=parseInt(form1.a1.value)
+		var y=parseInt(form1.a2.value)
+		var z=x/y
+		form1.a3.value=z
+	}
+</script>
+<body bgcolor="cyan">
+	<form name="form1">
+		<p>Enter first number:<input type="text"name="a1"/></p>
+		<p>Enter second number:<input type="text"name="a2"/></p>
+		<p>Result:<input type="text"name="a3"/></p>
+		<input type="button"value="add"onclick="add()"/>
+		<input type="button"value="sub"onclick="sub()"/>
+		<input type="button"value="multi"onclick="multi()"/>
+		<input type="button"value="div"onclick="div()"/>
+	</form>
+	</body>
+</head>
+	</html>
+
